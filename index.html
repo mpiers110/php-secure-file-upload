@@ -1,0 +1,32 @@
+<html>
+	<head><title></title></head>
+	<body>
+
+<form id="add_assignment" action="upload.php" method="post" enctype="multipart/form-data">
+	<div class="control-group">
+		<label class="control-label" for="inputEmail">File</label>
+		<div class="controls">				
+			<input name="myFile"  class="input-file uniform_on" id="fileInput" type="file" required>	 
+		</div>
+	</div>
+	<div class="control-group">
+  
+		<div class="controls">
+			<input type="text" name="name" Placeholder="File Name"  class="input" required>
+		</div>
+	</div>
+	<div class="control-group">
+	  
+		<div class="controls">
+			<input type="text" name="desc" Placeholder="Description"  class="input" required>
+		</div>
+	</div>
+	<div class="control-group">
+		<div class="controls">
+
+			<button name="Upload" type="submit" value="Upload" class="btn btn-success" /><i class="icon-upload-alt"></i>&nbsp;Upload</button>
+		</div>
+	</div>
+</form>
+</body>
+</html>
