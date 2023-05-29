@@ -9,6 +9,7 @@ Add more file <a href="https://www.sitepoint.com/mime-types-complete-list/">mime
 ## Installation
 
 Add and customize the code in your php script that uploads files to the server or just follow the simple example in the <a href="https://github.com/mpiers110/php-secure-file-upload/blob/master/index.html">index.html</a> file.
+Specify the directory where the files are to be stored on the server.
 
     
 ## Allowed MIME types (can be extended to allow more file types including MS document formats)
